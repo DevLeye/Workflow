@@ -25,4 +25,4 @@ jobs:
       - name: Étape 3 - Variable Secret
         run: |
           echo "Variable d'environnement pour l'étape 3"
-          echo "STEP3= ${{ secrets.STEP3 }}"
+          echo "STEP3= ${{ secrets.STEP3 }} doudou"
