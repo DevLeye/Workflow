@@ -1,9 +1,13 @@
-name: Testing github workflows
+name: Demonstration CI
 on: push
 
 jobs:
   init:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'Hello Moussa'
-      - run: echo $hostname
+      - run: echo 'Etape 1 - Installation'
+      - run: echo 'Etape 2 - Recuperation du Code'
+      - run: echo 'Etape 3 - Build'
+      - run: echo 'Etape 4 - Test'
+      - run: echo 'Etape 5 - Packaging'
+      - run: echo 'Etape 6 - Fin du pipeline'
