@@ -1,3 +1,6 @@
+name: Integration continue
+on: push
+
 jobs:
   integration-continue:
     name: Gestion des variables d'environnement et secrets
