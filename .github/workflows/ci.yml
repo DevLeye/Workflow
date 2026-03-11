@@ -3,7 +3,7 @@ on: push
 
 jobs:
   init:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - run: echo 'Hello Moussa'
       - run: echo $hostname
